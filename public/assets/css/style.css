@@ -1,0 +1,118 @@
+ ------------------------------
+   Base Layout
+--------------------------------
+body {
+  margin 0;
+  font-family system-ui, sans-serif;
+  color #222;
+}
+
+main {
+  display block;
+}
+
+ ------------------------------
+   Navbar
+--------------------------------
+.navbar {
+  display flex;
+  align-items center;
+  justify-content space-between;
+  padding 1rem 2rem;
+  background #1a1a1a;
+  color white;
+}
+
+.navbar-logo img {
+  height 3rem;
+}
+
+.navbar-brand {
+  display flex;
+  align-items center;
+  gap 1rem;
+}
+
+.navbar-caption {
+  font-size 1.25rem;
+  font-weight 600;
+  color white;
+  text-decoration none;
+}
+
+.navbar-links {
+  display flex;
+  gap 1.5rem;
+}
+
+.navbar-links a {
+  color white;
+  text-decoration none;
+  font-size 1rem;
+}
+
+.navbar-links ahover {
+  opacity 0.7;
+}
+
+.navbar-buttons .btn {
+  margin-left 1rem;
+}
+
+ ------------------------------
+   Buttons
+--------------------------------
+.btn {
+  display inline-block;
+  padding 0.75rem 1.25rem;
+  border-radius 6px;
+  text-decoration none;
+  font-weight 600;
+  cursor pointer;
+}
+
+.btn-primary {
+  background #007bff;
+  color white;
+}
+
+.btn-primaryhover {
+  background #0069d9;
+}
+
+.btn-outline {
+  border 2px solid #000;
+  color #000;
+}
+
+.btn-outlinehover {
+  background #000;
+  color white;
+}
+
+ ------------------------------
+   Hero Section
+--------------------------------
+.hero {
+  padding 6rem 2rem;
+  text-align center;
+  background #b5aca1;  matches your overlay color 
+  color white;
+}
+
+.hero h1 {
+  font-size 3rem;
+  margin-bottom 1.5rem;
+}
+
+.hero p {
+  font-size 1.25rem;
+  max-width 700px;
+  margin 0 auto 2rem auto;
+}
+
+.hero-buttons {
+  display flex;
+  justify-content center;
+  gap 1rem;
+}

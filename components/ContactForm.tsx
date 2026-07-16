@@ -1,0 +1,69 @@
+
+"use client";
+import { useState } from "react";
+
+export default function ContactForm() {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted:", form);
+    // You can POST to an API route here
+  };
+
+  return (
+    <section className="contact-section">
+      <div className="container">
+        <header className="section-head">
+          <h3>Contact Us</h3>
+        </header>
+
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <div className="row">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              value={form.name}
+              onChange={handleChange}
+            />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              value={form.email}
+              onChange={handleChange}
+            />
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone"
+              value={form.phone}
+              onChange={handleChange}
+            />
+
+            <textarea
+              name="message"
+              placeholder="Message"
+              value={form.message}
+              onChange={handleChange}
+            ></textarea>
+
+            <button type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  );
+}
