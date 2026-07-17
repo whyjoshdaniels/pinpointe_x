@@ -18,7 +18,7 @@ const services = [
     title: "Templates",
     text: "Custom templates that make daily tasks faster, more consistent, and easier for your team.",
     img: "/assets/images/testeur-de-cbd-BfaZCp_lB8g-unsplash.jpg",
-    v_pos: "15%"
+    v_pos: "50%"
   },
   {
     title: "Process Automation",

@@ -26,7 +26,7 @@ const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     <section className="contact-section">
       <div className="container">
         <header className="section-head">
-          <h3>Contact Us</h3>
+          <h2>Contact Us</h2>
         </header>
 
         <form className="contact-form" onSubmit={handleSubmit}>

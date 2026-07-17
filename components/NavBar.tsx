@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function NavBar() {
   return( 
@@ -5,7 +6,7 @@ export default function NavBar() {
         <div className="navbar-brand">
           <span className="navbar-logo">
             <a href="/">
-              <img src="/assets/images/pin512.png" alt="Pinpointe Data Solutions" />
+              <img src="/assets/images/pin_orange_big.png" alt="Pinpointe Data Solutions" />
             </a>
           </span>
 
@@ -15,9 +16,9 @@ export default function NavBar() {
         </div>
 
         <div className="navbar-links">
-          <a href="#about">About</a>
-          <a href="#services">Services</a>
-          <a href="#contact">Contacts</a>
+          <Link href="#about">About</Link>
+          <Link href="#what-we-do">Services</Link>
+          <Link href="#contact-form">Contacts</Link>
         </div>
 
         <div className="navbar-buttons">
