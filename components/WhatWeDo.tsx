@@ -5,39 +5,45 @@ const services = [
   {
     title: "Data Cleanup",
     text: "Clean, organized, accurate data that’s easy to understand and ready for smarter decisions.",
-    img: "/assets/images/mika-baumeister-wpnoqo2plfa-unsplash-816x545.jpg",
+    img: "/assets/images/mika-baumeister-wpnoqo2plfa-unsplash.jpg",
+    v_pos: "0%" 
   },
   {
     title: "Dashboards",
     text: "Clear, automated dashboards that show exactly what’s happening in your business at a glance.",
-    img: "/assets/images/carlos-muza-hpjsku2uysu-unsplash-816x581.jpg",
+    img: "/assets/images/carlos-muza-hpjsku2uysu-unsplash.jpg",
+    v_pos: "20%"
   },
   {
     title: "Templates",
     text: "Custom templates that make daily tasks faster, more consistent, and easier for your team.",
-    img: "/assets/images/mbr-816x551.png",
+    img: "/assets/images/testeur-de-cbd-BfaZCp_lB8g-unsplash.jpg",
+    v_pos: "15%"
   },
   {
     title: "Process Automation",
     text: "Automated workflows that eliminate repetitive work, reduce errors, and save hours every week.",
-    img: "/assets/images/mbr-1920x1355.jpg",
+    img: "/assets/images/round-icons-PTHONxhEo2M-unsplash.jpg",
+    v_pos: "0%"
   },
   {
     title: "AI & Bot Implementation",
     text: "Stop answering the same questions all the time. Get a chatbot for your site!",
-    img: "/assets/images/mbr-1920x1076.jpg",
+    img: "/assets/images/the-iop-RAFJMN3zEZ8-unsplash.jpg",
+    v_pos: "10%"
   },
   {
     title: "Fractional Data Analyst",
     text: "Need an analyst but not the expense? Hire a Data Analyst at a fraction of the cost!",
-    img: "/assets/images/invest-europe-5rajrrjs9io-unsplash-816x544.jpg",
+    img: "/assets/images/invest-europe-5rajrrjs9io-unsplash.jpg",
+    v_pos: "15%"
   },
 ];
 
 export default function WhatWeDo() {
   return (
     <section className="what-we-do">
-      <div className="container">
+      <div className="grid-container">
         <header className="section-head">
           <h2>What We Do</h2>
           <p>
@@ -52,7 +58,7 @@ export default function WhatWeDo() {
           {services.map((s) => (
             <div key={s.title} className="card">
               <div className="image">
-                <Image src={s.img} alt={s.title} width={600} height={400} />
+                <Image src={s.img} alt={s.title} width={600} height={400} style={{ objectPosition: `50% ${s.v_pos}` }} />
               </div>
               <h3>{s.title}</h3>
               <p>{s.text}</p>
