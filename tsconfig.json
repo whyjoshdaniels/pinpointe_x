@@ -27,7 +27,10 @@
         "./*"
       ]
     },
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "typeRoots": ["./types", "./node_modules/@types"]
+
+
   },
   "include": [
     "next-env.d.ts",
