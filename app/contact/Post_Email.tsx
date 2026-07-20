@@ -1,6 +1,7 @@
 import nodemailer from "nodemailer";
+// import type { NextRequest } from "next/dist/server/web/spec-extension/request";
 
-export async function POST(req) {
+export async function POST(req: NextRequest) {
   const body = await req.json();
 
   const transporter = nodemailer.createTransport({
@@ -31,4 +32,5 @@ Message: ${body.message}
     return new Response(JSON.stringify({ success: false }), { status: 500 });
   }
 }
+import { NextRequest } from "next/dist/server/web/spec-extension/request";
   
