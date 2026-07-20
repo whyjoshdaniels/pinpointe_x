@@ -5,37 +5,37 @@ const services = [
   {
     title: "Data Cleanup",
     text: "Clean, organized, accurate data that’s easy to understand and ready for smarter decisions.",
-    img: "/assets/images/mika-baumeister-wpnoqo2plfa-unsplash.jpg",
+    img: "/assets/images/spreadsheet-numbers.webp",
     v_pos: "0%" 
   },
   {
     title: "Dashboards",
     text: "Clear, automated dashboards that show exactly what’s happening in your business at a glance.",
-    img: "/assets/images/carlos-muza-hpjsku2uysu-unsplash.jpg",
+    img: "/assets/images/laptop-dashboard.webp",
     v_pos: "20%"
   },
   {
     title: "Templates",
     text: "Custom templates that make daily tasks faster, more consistent, and easier for your team.",
-    img: "/assets/images/testeur-de-cbd-BfaZCp_lB8g-unsplash.jpg",
+    img: "/assets/images/knolled-template.webp",
     v_pos: "50%"
   },
   {
     title: "Process Automation",
     text: "Automated workflows that eliminate repetitive work, reduce errors, and save hours every week.",
-    img: "/assets/images/round-icons-PTHONxhEo2M-unsplash.jpg",
+    img: "/assets/images/process.webp",
     v_pos: "0%"
   },
   {
     title: "AI & Bot Implementation",
     text: "Stop answering the same questions all the time. Get a chatbot for your site!",
-    img: "/assets/images/the-iop-RAFJMN3zEZ8-unsplash.jpg",
+    img: "/assets/images/robot.webp",
     v_pos: "10%"
   },
   {
     title: "Fractional Data Analyst",
     text: "Need an analyst but not the expense? Hire a Data Analyst at a fraction of the cost!",
-    img: "/assets/images/invest-europe-5rajrrjs9io-unsplash.jpg",
+    img: "/assets/images/data-anlyst.webp",
     v_pos: "15%"
   },
 ];
