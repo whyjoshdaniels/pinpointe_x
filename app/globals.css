@@ -74,7 +74,7 @@ head{
 :root {
   --brand-bg: #0E182F;
   --brand-aqua: #8AD0C8;
-  --brand-beige: #B5ACA1;
+  --brand-beige: #b5aca1;
   --brand-linen: #F2EBE3;
   --brand-red: #c40000;
 }
@@ -247,16 +247,13 @@ head{
 --------------------------------*/
 
 .contact-section {
-  background-color: var(--brand-beige);
-  background-image:  url("/assets/images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg");
-  background-blend-mode: exclusion;
-  background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+  background: url("/assets/images/pptebg1.webp");
 
   margin:0;
 
 }
+
+
 .contact-section h2{
   margin:0 auto;
   padding: 50px 0;
@@ -272,7 +269,7 @@ background-repeat: no-repeat;
   max-width: 600px;
   margin: 0 auto;
   padding: 24px;
- 
+  background: rgba(14, 24, 47, 0.6);
   border-radius: 8px;
   border: 1px solid #e3e3e3;
 }
@@ -280,12 +277,14 @@ background-repeat: no-repeat;
 .contact-form .row {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  align-content: center;
   gap: 16px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px 14px;
   border: 1px solid #ccc;
   border-radius: 6px;
