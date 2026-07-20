@@ -35,7 +35,7 @@ const services = [
   {
     title: "Fractional Data Analyst",
     text: "Need an analyst but not the expense? Hire a Data Analyst at a fraction of the cost!",
-    img: "/assets/images/data-anlyst.webp",
+    img: "/assets/images/data-analyst.webp",
     v_pos: "15%"
   },
 ];

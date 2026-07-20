@@ -173,7 +173,7 @@ head{
   rgba(0, 0, 0, .80) 47%,
   rgb(0, 0, 0, 0.60) 60%,
   rgba(255, 255, 255, 0) 96%),
-  url("/assets/images/alexander-grey-tn57JI3CewI-unsplash2.jpg"),
+  url("/assets/images/hero-folders.webp"),
     /* linear-gradient(57deg, rgba(255, 255, 255, 0) 9%, rgba(171, 168, 163, 1) 32%, rgba(115, 109, 101, 0.94) 47%, rgba(152, 148, 142, 1) 60%, rgba(255, 255, 255, 0) 96%), */
     var(--brand-beige);
   background-blend-mode: normal,luminosity,overlay ;
